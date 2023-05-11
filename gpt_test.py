@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "API Keyを入力してください"
 
 def ans_ChatGPT(question):
     completion = openai.ChatCompletion.create(
